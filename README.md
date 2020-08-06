@@ -1,7 +1,7 @@
 # instagram_data_insights
 
 1. Queries -
-All the queries used in the project are pressent in the queries folder
+All the queries used in the project are present in the Queries folder
 
 2. json-csv convertor -
 Converts a json file to a csv file
