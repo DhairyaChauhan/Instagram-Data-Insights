@@ -1,0 +1,13 @@
+#Query to find performance by type of media
+
+SELECT
+ type,
+ SUM(likes_count) as total_likes,
+ AVG(likes_count) as avg_likes,
+ SUM(comments_count) as total_comments,
+ AVG(comments_count) as avg_comments,
+ COUNT(distinct id) as nums_of_post
+FROM
+ public.instagram_media
+GROUP BY
+1

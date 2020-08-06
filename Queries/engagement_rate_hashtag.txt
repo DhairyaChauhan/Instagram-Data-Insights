@@ -1,0 +1,19 @@
+#Query to find engagement for each hashtag used
+
+with t AS
+(SELECT
+ value as hashtag,
+ likes_count as likes,
+ comments_count as comments
+ FROM public.instagram_media m
+ left JOIN public.instagram_media_tags mt
+ ON m.id = mt.instagram_media_id
+) 
+select 
+     hashtag,
+     AVG(likes) as avg_likes,
+     AVG(comments) as avg_comments
+from 
+     t
+where hashtag is not null
+group by 1

@@ -1,0 +1,18 @@
+#Query to find top active commenters
+
+SELECT
+*
+FROM
+(SELECT
+ from_username as username,
+ COUNT(media_id) as nums_of_comments,
+ RANK() OVER(ORDER BY nums_of_comments DESC)
+FROM
+ public.instagram_comments
+GROUP BY
+1
+ORDER BY
+2 DESC
+) as t
+WHERE
+ rank >1 and rank <=15
