@@ -14,18 +14,18 @@ def getCreds() :
 	Returns:
 		dictonary: credentials needed globally
 	"""
-
+	#some information have been removed due to privacy concern.
 	creds = dict() # dictionary to hold everything
-	creds['access_token'] = 'EAAM0iVaGnkcBADQEMFl0lV2lJ5dA1dUUIJoWVZBGxwfN2JsPxttWMXGtWjyNaaNnhWvBWM88sHlUGLHNbTqPUumxzZCoLuGJCfy8TRSaA8ZBXZAUC38PikxMVCHlZC2V7e2bQHaZC3KRcbwuekVVbBnlfaZBGZCH4NkZD' # access token for use with all api calls
-	creds['client_id'] = '902189396958791' # client id from facebook app IG Graph API Test
-	creds['client_secret'] = '03d34d8bf5284c8d4b714c4f9e21c54a' # client secret from facebook app
+	creds['access_token'] = '' # access token for use with all api calls
+	creds['client_id'] = '' # client id from facebook app IG Graph API Test
+	creds['client_secret'] = '' # client secret from facebook app
 	creds['graph_domain'] = 'https://graph.facebook.com/' # base domain for api calls
 	creds['graph_version'] = 'v6.0' # version of the api we are hitting
 	creds['endpoint_base'] = creds['graph_domain'] + creds['graph_version'] + '/' # base endpoint with domain and version
 	creds['debug'] = 'no' # debug mode for api call
-	creds['page_id'] = '306409226799238' # users page id
-	creds['instagram_account_id'] = '17841408047434833' # users instagram account id
-	creds['ig_username'] = 'the.bakneree' # ig username
+	creds['page_id'] = '' # users page id
+	creds['instagram_account_id'] = '' # users instagram account id
+	creds['ig_username'] = '' # ig username
 
 	return creds
 
