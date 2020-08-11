@@ -1,8 +1,0 @@
-#Query to find number of likes and comments per post
-
-SELECT 
-  id, 
-  likes_count as "likes" 
-  comments_count as "comments"
-FROM 
-  public.instagram_media
