@@ -2,8 +2,4 @@
 
 1. Python - Contains the python code used to accumulate data through Instagram Graph API
 
-2. Demo_ADT_Group8 - Overview of the project
-
-3. Project_Demo - A short video goign through the project
-
-4. Dashboards - Contains the 2 tableau dashboards created
+2. Dashboards - Contains the 2 tableau dashboards created
