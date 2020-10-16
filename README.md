@@ -1,4 +1,4 @@
-# instagram_data_insights
+# Instagram Data Insights
 
 Goal - Extract user data from Instagram using the Graph API and create meaningful dashboards.
 
